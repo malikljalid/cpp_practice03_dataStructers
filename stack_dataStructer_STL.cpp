@@ -10,6 +10,8 @@ int main(void)
     stkNumbers.push(13);
     stkNumbers.push(20);
 
+    std::cout << "stack size : " << stkNumbers.size() << std::endl;
+    
     while (stkNumbers.empty() == false)
     {
         std::cout << stkNumbers.top() << std::endl;
