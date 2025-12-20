@@ -174,5 +174,8 @@ int main(void)
     clsNode::deleteNode(head, 1);
     clsNode::printList(head);
 
+    clsNode::deleteFirstNode(head);
+    clsNode::printList(head);
+
     return (0);
 }
