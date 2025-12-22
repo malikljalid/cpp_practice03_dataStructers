@@ -22,5 +22,8 @@ int main(void)
         std::cout<< pair.first << " : " << pair.second << std::endl;
     }
 
+    if (mpNames.find("Hacker") == mpNames.end())
+        std::cout << "Hacker does not EXIST !!\n";
+
     return (0);
 }
